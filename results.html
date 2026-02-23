@@ -2,29 +2,28 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exam Results</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100">
 
+<!-- Navbar -->
 <nav class="bg-blue-700 p-4 text-white">
-  <a href="index.html">? Back to Home</a>
+  <a href="index.html" class="hover:underline">← Back to Home</a>
 </nav>
 
+<!-- Content -->
 <section class="p-10 text-center">
   <h2 class="text-3xl font-bold mb-6">Check Exam Results</h2>
 
-  <input type="text" placeholder="Enter Index Number"
-    class="border p-2 rounded w-64">
-  <button onclick="checkResult()"
-    class="bg-blue-600 text-white px-4 py-2 rounded ml-2">
-    Search
-  </button>
+  <p class="mb-6 text-gray-700">Click the button below to view your exam results directly on the official website.</p>
 
-  <p id="resultMessage" class="mt-6 text-xl font-bold"></p>
+  <a href="https://www.doenets.lk/examresults" target="_blank"
+     class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-bold hover:bg-blue-700 transition">
+     Go to Exam Results
+  </a>
 </section>
-
-<script src="script.js"></script>
 
 </body>
 </html>
